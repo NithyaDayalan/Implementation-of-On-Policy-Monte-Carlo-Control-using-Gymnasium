@@ -259,21 +259,14 @@ env.close()
 ```
 
 ### Output
+#### For Episodes=20000
+<img width="377" height="545" alt="image" src="https://github.com/user-attachments/assets/9f474802-0f67-4e6f-896b-6ea9a9e4a097" />
+<img width="671" height="430" alt="image" src="https://github.com/user-attachments/assets/e2867433-85fc-4177-a115-46329aae48b2" />
 
-#### Final Q-table:
-<img width="328" height="446" alt="image" src="https://github.com/user-attachments/assets/413ded0c-3593-45ed-a7dd-de73c84a958a" />
 
-#### Estimated State-Value Function:
-<img width="366" height="185" alt="image" src="https://github.com/user-attachments/assets/4d5c256c-2a29-4bc2-9004-189bcd3ad1b3" />
-
-#### Learned Policy:
-<img width="227" height="142" alt="image" src="https://github.com/user-attachments/assets/e75577e9-706b-48be-b669-6494a8881d59" />
-
-#### Average reward over last 1000 episodes: 
-<img width="566" height="35" alt="image" src="https://github.com/user-attachments/assets/0404cc90-b594-4515-8c94-89fed5145462" />
-
-#### Monte Carlo Control Learning Curve
-<img width="660" height="431" alt="image" src="https://github.com/user-attachments/assets/7ddec23c-0c4f-4118-b770-723dd6acdc1b" />
+#### For Episodes=4000
+<img width="362" height="540" alt="image" src="https://github.com/user-attachments/assets/e3eb521b-bd7f-429a-9f33-6407b2a075e5" />
+<img width="667" height="431" alt="image" src="https://github.com/user-attachments/assets/71d78e59-f25e-4e23-a101-9fa70dd3f2d1" />
 
 ### Result
 The On-Policy Monte Carlo Control algorithm was successfully implemented using the Gymnasium FrozenLake-v1 environment. The agent learned the action-value function Q(s,a) from complete episodes using an epsilon-greedy policy. The learned Q-values were used to obtain an improved policy for reaching the goal while avoiding the holes.
